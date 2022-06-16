@@ -1,0 +1,330 @@
+
+body a img:hover{
+    opacity: 0.7;
+}
+p{
+    margin-bottom: 0px;
+}
+.row{
+    margin: 0px;
+}
+table tr td span{
+    display: inline-block;
+}
+.fa{
+    padding-right: 5px;
+}
+/*Header*/
+.mainCont{
+    position: relative;
+}
+.logo{
+    padding: 15px 0 0 15px;
+}
+.bgheader{
+    background-color: beige;
+}
+.mainttl{
+    text-align: center;
+    color: grey;
+    padding: 15px 0px;
+}
+.mainttl .ttl{
+    color: #000fff;
+} 
+.mainttl p{
+    font-style: italic;
+}
+.mainttl p:before{
+    background-color: grey;
+    height: 1px;
+    width: 8px;
+}
+.mainttl .fa{
+    color: grey;
+}
+.cart img{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+/*Button*/
+.btn_dongy{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn_boqua , .btn_xoadon , .btn_muatiep{
+    color: #fff;
+    background-color: #aa3011;
+    border-color: #aa3011;
+}
+/*Menu*/
+.menu{
+    background-color: #333;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: flex-start;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 15px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /*search box*/
+  .btn_search{
+      text-align: right;
+      padding: 10px 10px 10px 0;
+  }
+  
+  .btn_search input[type="text"]{
+      border-radius: 5px;
+  }
+  .btn_search input[type="button"]{
+      color: green;
+      background-color: #333;
+      padding: 3px 16px;
+      border: solid 1px green;
+      border-radius: 5px;
+      margin-left: 5px;
+      margin-top: -4px;
+  }
+ .btn_search .btn:hover{
+     background-color: green;
+     color:white;
+
+ }
+
+ /*Left navi*/
+ .subttl{
+    background-color: rgb(36, 150, 150);
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+ }
+ #mobiles .subttl{
+    background-color: rgb(231, 100, 100);
+ }
+ #mobiles .leftnav + .subttl{
+    background-color: rgb(36, 150, 150);
+ }
+#tivis .subttl{
+    background-color: rgb(231, 100, 100);
+ }
+#tivis .leftnav + .subttl{
+    background-color: rgb(36, 150, 150);
+ }
+
+ #foods .subttl{
+    background-color: rgb(231, 100, 100);
+ }
+ #foods .leftnav + .subttl{
+    background-color: rgb(36, 150, 150);
+ }
+.leftnav a{
+    display: block;
+    border: solid 1px #ccc;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.frameProduct{
+    padding-left: 0px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+.product{
+    margin: 5px 0;
+    border-radius: 8px;
+    border: solid 1px #ccc;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.product:hover{
+    box-shadow: 1px 5px 8px #888888;
+    transition: 0.3s;
+}
+.product .productImg{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.nameProduct{
+    padding: 15px 0;
+    color: green;
+    font-size: 16px;
+}
+.product .price{
+    color: red;
+}
+.product .ico{
+    padding: 10px 15px;
+    text-align: right;
+}
+.product .ico{
+    margin-right: -10px;
+}
+.product .ico a{
+    border: solid 1px blue;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+/*Contact*/
+#contact .ttlContact{
+    color: #aa3011;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    text-align: center;
+    border: solid 1px #aa3011;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.ttlContact h2{
+    margin: 0px;
+}
+.table td, .table th{
+    border-top:none;
+    padding: 5px 0px;
+}
+
+#contact .table input[type="text"]{
+    width: 96%;
+    padding:0 10px;
+    border-color: #fff;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 3px 8px 6px -6px #a2a63cb3;
+   /* box-shadow: inset 0px -2px 4px #a2a63cb3;*/
+}
+#cart .table input[type="text"], input[type="date"], input[type="number"]{
+    width: 100%;
+    padding:0px 10px;
+    border-color: #fff;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 3px 8px 6px -6px #a2a63cb3;
+   /* box-shadow: inset 0px -2px 4px #a2a63cb3;*/
+   margin-bottom: 5px;
+}
+.contactBox{
+    border-right: solid 1px #ccc;
+    padding: 0px 15px 10px 0px;
+}
+.noidung{
+    padding: 10px;
+}
+.map{
+    padding-left: 35px;
+}
+
+/* Cart */
+#cart .ttlContact{
+    color: #fff !important;
+    background-color: #363b41;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+#cart .tableCart input[type="text"]{
+    width: 50%;
+    height: 25px;
+}
+#cart .tableCart {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: rgb(237, 237, 237);
+    white-space: nowrap!important;
+}
+#cart .tableCart thead{
+    background-color: #3155d8;
+    color: #fff;
+    text-align: center;
+}
+#cart .tableCart thead th{
+    padding: 5px 20px ;
+}
+#cart .tableCart th, .tableCart td{
+    border: 1px solid #fff!important;
+}
+#cart .tableCart td{
+    text-align: right;
+    padding: 5px 10px;
+}
+#cart .tableCart td .fa{
+    padding-right: 0px;
+}
+#cart .tableCart .image{
+    width: 10%;
+}
+#cart .tableCart sup{
+    text-decoration: underline;
+}
+#cart .tableCart img{
+    width: 100%;
+    padding: 5px; 
+}
+
+#cart .tableCart td:last-child{
+    color: red;
+}
+.ttlInfo{
+    color: #319ed8;
+}
+.info{
+    padding: 0px 0px 0px 20px;
+}
+.inputtxt{
+    text-align: right;
+}
+#cart .inputtxt::placeholder {
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000;
+}
+
+/*Carousel*/
+.carousel-indicators li{
+    background-color: #28a745;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+/*Footer*/
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    margin-top: 50px;
+}

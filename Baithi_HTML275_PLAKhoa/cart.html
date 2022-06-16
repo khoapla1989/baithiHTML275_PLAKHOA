@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cửa hàng Thu Trân</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="cart">
+    <!--Header-->
+    <div class="bgheader">
+        <div class="container">
+            <div class="row mainCont">
+                <div class="col-xl-2 logo">
+                    <a href="/"><img src="./images/PET.png" alt=""></a>
+                </div>
+    
+                <div class="col-xl-8 mainttl">
+                    <h1 class="ttl">Cửa hàng Thu Trân</h1>
+                    <p>ー Phục vụ Quý khách 24/7</p>
+                    <p>ー <i class="fa fa-home" aria-hidden="true"></i>: 137E Nguyễn Chí Thanh Phường 4 Quận 5 Tp.Hồ Chí Minh
+                    </p>
+                    <p>ー <i class="fa fa-envelope-o" aria-hidden="true"></i>: admin@thutran.com ー <a href=""><i
+                                class="fa fa-phone" aria-hidden="true"></i>: 08 777 6666</a></p>
+                </div>
+                <div class="col-xl-2 cart">
+                    <a href="/cart.html">
+                        <img src="./images/add-cart.png" alt="" width="70">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 mt-1">
+                <a name="" id="dongy" class="btn btn_dongy" href="#" role="button" onclick="return DongY()" >Đồng ý</a>
+                <a name="" id="" class="btn btn_xoadon" href="#" role="button">Xoá đơn hàng</a>
+                <a name="" id="" class="btn btn_muatiep" href="#" role="button">Mua tiếp</a>
+            </div>
+            <div class="col-xl-12">
+                <h2 class="ttlContact">GIỎ HÀNG CỦA BẠN</h2>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xl-7 pl-0">
+                        <table class="tableCart table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="">Hình</th>
+                                    <th class="">Tên</th>
+                                    <th class="">Số Lượng</th>
+                                    <th class="">Đơn giá bán</th>
+                                    <th class="">Thành tiền</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="./images/ANDROID_13.png" alt="">
+                                    </td>
+                                    <td class="text-left">Freetel ICE 2 8GB</td>
+                                    <td>
+                                        <input type="text" name="" id="" placeholder="1" class="inputtxt" readonly>
+                                    </td>
+                                    <td>9.240.000<sup>đ</sup></td>
+                                    <td>9.240.000<sup>đ</sup></td>
+                                    <td  class="text-center">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">
+                                        <img src="./images/ANDROID_12.png" alt="">
+                                    </td>
+                                    <td class="text-left">Telego Spot 8GB</td>
+                                    <td>
+                                        <input type="text" name="" id="" placeholder="1" class="inputtxt" readonly>
+                                    </td>
+                                    <td>7.920.000<sup>đ</sup></td>
+                                    <td>7.920.000<sup>đ</sup></td>
+                                    <td class="text-center">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6">
+                                        <strong>Tổng thành tiền:</strong> 17.160.000<sup>đ</sup>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-xl-5 pr-0">
+                        <div class="info">
+
+                        <div class="ttlInfo">
+                            <h3>THÔNG TIN GIAO HÀNG</h3>
+                        </div>
+                        <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Họ tên</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="" id="hoten" placeholder="Nhập họ tên">
+                                            <span id="lblhoten" style="color: #FF0004"></span> 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="" id="mail" placeholder="Nhập Email">
+                                            <span id="lblmail" style="color: #FF0004"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Điện thoại</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="number" name="" id="call" placeholder="Nhập số điện thoại">
+                                            <span id="lblcall" style="color: #FF0004"></span> 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Địa chỉ giao hàng</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="" id="address" placeholder="Nhập địa chỉ">
+                                            <span id="lbladdress" style="color: #FF0004"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Ngày giao hàng</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="date" name="" id="datepicker" placeholder="mm/dd/yy">
+                                            <span id="lbldatepicker" style="color: #FF0004"></span>
+                                        </td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-xl-12">
+                <p><span>&copy; </span> 2021 Designer Lập trình viên JavaScript</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="./js/thuvien.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
